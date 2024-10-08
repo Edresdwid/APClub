@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="APClub__My_FYP_.Site" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>APClub - My FYP</title>
+
+    <!-- Add jQuery Reference Here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <!-- Optional: You can also add other scripts if needed -->
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <header>
+                <h1>APClub</h1>
+                <!-- Add navigation links here -->
+            </header>
+
+            <!-- Content Place Holder for Page Content -->
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+
+            <footer>
+                <p>APClub © 2024</p>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
